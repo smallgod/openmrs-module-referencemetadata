@@ -16,7 +16,7 @@
 	<!-- / Module Properties -->
 
 	
-	<!-- Required Modules -->
+	<!-- Required Modules TODO: Remove irrelevant modules-->
 	<require_modules>
 		<require_module version="${emrapiModuleVersion}">
 			org.openmrs.module.emrapi
