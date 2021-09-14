@@ -3,22 +3,22 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.openmrs.module</groupId>
-	<artifactId>referencemetadata</artifactId>
-	<version>2.12.0-SNAPSHOT</version>
+	<artifactId>ohrireports</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Reference Metadata Module</name>
-	<description>Metadata for the Reference Application</description>
-	<url>https://wiki.openmrs.org/display/docs/Reference+Metadata+Module+Module</url>
+	<name>OHRI Reports</name>
+	<description>Reports for the OHRI application module</description>
+	<url>https://wiki.openmrs.org/display/docs/ohri-reports</url>
 	
 	<developers>
 		<developer>
-			<name>OpenMRS</name>
+			<name>OHRI team</name>
 		</developer>
 	</developers>
 	
 	<organization>
-		<name>OpenMRS</name>
-		<url>http://openmrs.org</url>
+		<name>OHRI</name>
+		<url>https://ohri.globalhealthapp.net</url>
 	</organization>
 
     <properties>

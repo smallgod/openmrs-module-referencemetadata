@@ -3,14 +3,15 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>referencemetadata</artifactId>
-		<version>2.12.0-SNAPSHOT</version>
+		<artifactId>ohrireports</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>referencemetadata-omod</artifactId>
+	<artifactId>ohrireports-omod</artifactId>
 	<packaging>jar</packaging>
-	<name>Reference Metadata Module OMOD</name>
-	<description>OMOD project for ReferenceMetadata</description>
+	<name>OHRI Reports Module OMOD</name>
+	<description>OMOD project for OHRI Reports</description>
 
 	<dependencies>
         <dependency>
@@ -19,6 +20,7 @@
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
+
 	</dependencies>
 
 	<build>
